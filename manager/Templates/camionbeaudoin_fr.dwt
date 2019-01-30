@@ -1,0 +1,181 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Le r&eacute;seau Dynamique </title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="meta" -->
+<meta name="description" content="Un des plus grands points de distribution des produits de la gamme de camions International au Canada"/>
+<meta name="keywords" content="Camion, Camion international, International, truck, inter"/>
+<meta name="robots" content="index,follow,all"/>
+<meta name="robots" content="NOARCHIVE"/>
+<meta name="revisit-after" content="7 days"/>
+<!-- TemplateEndEditable -->
+<meta name="author" content="Stéphane Cinq-Mars, Cinq-Mars Communication, www.cinq-mars.com"/>
+<link rel="stylesheet" href="../styles/beaudoin.css"/>
+<link rel="stylesheet" type="text/css" media="print" href="../styles/print.css" />
+<script type="text/javascript">
+
+function clearDefault(el) {
+  if (el.defaultValue==el.value) el.value = ""
+}
+	
+<!-- IE 6 -->
+startList = function() {
+	if (document.all&&document.getElementById) {
+		navRoot = document.getElementById("nav");
+		for (i=0; i<navRoot.childNodes.length; i++) {
+			node = navRoot.childNodes[i];
+			if (node.nodeName=="LI") {
+				node.onmouseover=function() {
+					this.className+=" over";
+				}
+				node.onmouseout=function() {
+					this.className=this.className.replace(" over", "");
+				}
+			}
+		}
+	}
+}
+window.onload=startList;
+</script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- TemplateParam name="bodyid" type="text" value="" -->
+</head>
+<body id="@@(bodyid)@@">
+<table style background="../images/header_RD2008.jpg" width="934px" border="0" align="center" cellpadding="0" cellspacing="0" id="header">
+  <tr>
+    <td height="170"><div id="container_nav">
+<ul id="nav">
+   <li id="bt_accueil">
+    <div id="accueil_tab" title="Accueil - Réseau Dynamique"><a href="../index.htm" ><span>Accueil</span></a></div>
+  </li>
+  <li class="large">
+    <div id="coordonnees_tab" title="Points de Service Camions International"><a href="../points_de_service.html"><span>Points de Service</span></a></div>
+    <ul>
+        <li><a href="../succursales/succ_joliette_fr.php" title="Camions Inter-Lanaudière inc. - Anjou">Joliette<br><span class="nom_dealer">Camions Inter-Lanaudière Inc.</span></a></li>
+     <li><a href="../succursales/succ_anjou_fr.php" title="Camions Inter-Anjou inc. - Anjou">Anjou<br><span class="nom_dealer">Camions Inter-Anjou inc.</span></a></li>
+              <li><a href="../succursales/succ_boucherville_fr.php" title="Inter-Boucherville inc. - Boucherville">Boucherville<br><span class="nom_dealer">Inter-Boucherville inc.</span></a></li>
+                    <li><a href="../succursales/succ_sainthyacinthe_fr.php" title="Les Camions Beaudoin inc. - Saint-Hyacinthe">Saint-Hyacinthe<br><span class="nom_dealer">Les Camions Beaudoin inc.</span></a></li>
+      <li><a href="../succursales/succ_drummondville_fr.php" title="Centre du Camion Beaudoin inc. - Drummondville">Drummondville<br><span class="nom_dealer">Centre du Camion Beaudoin inc.</span></a></li>
+	   <li><a href="../succursales/succ_victoriaville_fr.php" title="Charest International - Victoriaville">Victoriaville<br><span class="nom_dealer">Charest International</span></a></li>
+      <li><a href="../succursales/succ_troisrivieres_fr.php"  title="Garage Charest et Fr&egrave;res inc. - Trois-Rivières">Trois-Rivières.<br><span class="nom_dealer">Garage Charest et Fr&egrave;res inc</span></a></li>
+      	    <li><a href="../succursales/succ_thetfordmines_fr.php" title="Le Centre du Camion (Amiante) inc. - Thetford Mines">Thetford Mines<br><span class="nom_dealer">Le Centre du Camion (Amiante) inc.</span></a></li>
+                  <li><a href="../succursales/succ_saintgeorges_fr.php" title="Le Centre du Camion (Beauce) inc. - Saint-Georges">Saint-Georges<br><span class="nom_dealer">Le Centre du Camion (Beauce) inc.</span></a></li>
+                        <li><a href="../succursales/succ_riviereduloup_fr.php" title="Le Centre Routier 1994 inc. - Rivière-du-Loup">Rivière-du-Loup<br><span class="nom_dealer">Le Centre Routier 1994 inc.</span></a></li>
+	        <li><a href="../succursales/succ_quebec_fr.php" title="Camions International &Eacute;lite Lt&eacute;e - Québec">Québec<br><span class="nom_dealer">Camions International &Eacute;lite Lt&eacute;e</span></a></li>
+
+
+	      
+  
+  
+
+
+    </ul>
+  </li>
+
+     <li>
+    <div id="galerie_tab"><a href="#" title="Galerie clients"><span>Galerie clients</span></a></div>
+  <ul>
+      <li><a href="../photos_clients.html">Galerie photos clients</a></li>
+      <li><a href="../video.html">Vidéos</a></li>
+      </ul>
+   </li>
+   <li>
+    <div id="camions_tab"><a href="../camions/9000series_fr.htm" title="Camions neufs International"><span>Camions neufs</span></a></div> <ul>
+      <li><a href="../camions_cle-en-main.asp"><strong>Clé en main</strong></a></li>
+      <li><a href="../camions/9000series_fr.htm">9000 Series</a></li>
+      <li><a href="../camions/lonestar_fr.htm">LoneStar</a></li>
+      <li><a href="../camions/prostar_fr.htm">ProStar+</a></li>
+      <li><a href="../camions/transtar_fr.htm">TranStar</a></li>
+
+	  <li><a href="../camions/durastar_fr.htm">DuraStar</a></li>
+      <li><a href="../camions/durastar_hybrid_fr.htm">DuraStar Hybride</a></li>
+      <li><a href="../camions/paystar_fr.htm">PayStar</a></li>
+	  <li><a href="../camions/workstar_fr.htm">WorkStar</a></li>
+      <li><a href="../camions/terrastar_fr.htm">TerraStar</a></li>
+     
+	 
+    
+      <li><a href="../camions/maxxforce_fr.htm">MAXXFORCE 13</a></li>
+      <li><a href="../camions/ottawakalmar_fr.htm">Ottawa - Kalmar</a></li>
+    </ul>
+  </li>
+  <li>
+    <div id="occasion_tab"><a href="../camions-occasion.asp" title="Camions d'occasion International"><span>Camions d'occasion</span></a></div>
+  </li>
+  <li>
+    <div id="apropos_tab"><a href="../apropos.html" title="À propos"><span>&Agrave; propos</span></a></div>
+   </li>
+   <li>
+    <div id="services_tab"><a href="../services.html" title="Services"><span>Services</span></a></div>
+   </li>
+   <!-- <li>
+    <div id="myedge_tab"><a href="http://www.virtualpartscounter.com/" target="_blank"><span>MyEdge</span></a></div>
+  </li>-->
+   <!-- <li>
+    <div id="lang_tab"><a href="../index_ag.htm" ><span>English</span></a></div>
+  </li>-->
+</ul></div></td>
+  </tr>
+  <tr>
+    <td height="18" bgcolor="#000000" id="nav2"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:transparent;">
+        <tr><td width="60" valign="middle">&nbsp;</td>
+          <td width="100%" height="18" valign="middle">&nbsp;</td>
+          <td width="58" align="left" valign="middle" nowrap><img src="../images/logo_isuzu.jpg" alt="Isuzu" title="Isuzu" width="50" height="58"></td>
+          <td align="right" valign="middle" nowrap><a href="http://www.internationaldelivers.com"><img src="../images/logo_inter-small.gif" alt="Camions International Trucks" width="93" height="60" border="0"></a></td>
+          <td align="right" valign="middle" nowrap><a href="../camions/ottawakalmar_fr.htm"><img src="../images/logo_kalmar-small.gif" alt="Ottawa - Kalmar" border="0" align="middle" title="Ottawa - Kalmar"></a></td>
+          <td align="right" valign="middle" nowrap><a href="../camions/yanmar_fr.htm"><img src="../images/logo_yanmar_small.png" alt="Yanmar" border="0" align="middle" title="Yanmar"></a></td>
+          <td align="right" valign="middle" nowrap><a href="http://www.locationpinard.com/" target="_blank"><img src="../images/logo_idealease.gif" alt="Idealease" hspace="10" vspace="0" border="0" align="middle" title="Idealease"></a></td>
+          <td align="right" valign="middle" nowrap><a href="http://lereseaudynamique.comptoirdespieces.com/fr-ca/index.html" target="_blank"><img style="margin-right:10px;" title="myEDGE" src="../images/logo_my-edge.gif" alt="myEDGE" border="0" align="middle"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table border="0" align="center" cellpadding="0" cellspacing="0" id="table_content">
+  <tr>
+    <td valign="top"><table style width="100%" align="center">
+        <tr>
+          <td width="220" valign="top"><!-- TemplateBeginEditable name="contenu_gauche" --><!-- TemplateEndEditable --></td>
+          <td align="left" valign="top"><table width="677" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td valign="top" id="tr_titre"><!-- TemplateBeginEditable name="titre" --><!-- TemplateEndEditable --></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><br/>
+                  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top"><!-- TemplateBeginEditable name="contenu" --><!-- TemplateEndEditable --></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+       
+      </table></td>
+  </tr>
+</table>
+<table width="100%" align="center" id="footer">
+<tr><td>  <p class="menu"><a href="../index.htm">Accueil</a> | <!--<a href="../profil_fr.htm">Profil
+              de l'entreprise</a> | <a href="../dept_service_fr.htm">Produits et services</a> | -->
+      <a href="../points_de_service.html">Points de Service</a> | <a href="../camions/9000series_fr.htm">Camions neufs</a> | <a href="../vehicule_fr.asp">Camions d'occasion</a> | <a href="../apropos.html">&Agrave; propos du R&eacute;seau</a> | <a href="http://www.internationaldelivers.com" target="_blank">Camions International USA</a><br>
+<br>
+              &copy; 
+              2003-<script language="javascript">
+var datecourante=new Date()
+document.write (datecourante.getFullYear())
+                    </script>
+&nbsp;Centre du&nbsp;Camion Beaudoin inc. 
+              Tous droits r&eacute;serv&eacute;s. <br>
+<span class="cinqmars">Conception: <a href="http://www.cinq-mars.com" target="_blank">Cinq-Mars Communication</a></span> </p></td></tr></table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3192388-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
