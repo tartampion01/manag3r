@@ -288,7 +288,7 @@ Next
 
 If ID <> "" then
 
-	strSQL = "Select * from trucks WHERE ID=" & ID & ";"
+	strSQL = "Select *, cast(ifnull(DATEDIFF(CURDATE(),dateAchat),0) as SIGNED) as daysin from trucks WHERE ID=" & ID & ";"	
 	
 	Set rs = Server.CreateObject("ADODB.Recordset")
 	rs.Open strSQL,Conn
@@ -474,7 +474,12 @@ $(function(){
       <td nowrap="nowrap" class="cell_label">Date d'acquisition:</td>
       <td class="cell_content"><script language="JavaScript" type="text/javascript">
 	  var cal2=new ctlSpiffyCalendarBox("cal2", "frm", "dateAchat","btnDate2","<%=MakeLocalDate(dateAchat)%>",scBTNMODE_CALBTN,2);
-      cal2.writeControl();</script></td>
+      cal2.writeControl();</script>
+	  &nbsp;
+	  <%if daysin <> "0" then%>
+          <span class="err">En inventaire depuis <%=daysin%> jours</span>
+          <%end if%>
+	  </td>
     </tr>
     <tr>
       <td nowrap="nowrap" class="cell_label"># de mois en inv.:</td>
