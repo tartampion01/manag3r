@@ -12,7 +12,7 @@ Title = "Les Camions"
 SearchItems="modele,marque,intAnnee,unite,succursale"
 
 'Fields to display
-dim Headers(5,5)
+dim Headers(6,5)
 
 Headers(0,0)="unite"
 Headers(0,1)="Unité No"
@@ -55,7 +55,7 @@ Headers(6,3)="ShowDays(rs(""daysin""))"
 overdue_condition = "rs(""resUsers_ID"")"
 
 'strSQL = "SELECT * FROM trucks "
-strSQL = "SELECT *,cast(ifnull(DATEDIFF(CURDATE(),dateAchat),0) as SIGNED) as daysin from inventory FROM trucks "
+strSQL = "SELECT *, cast(ifnull(DATEDIFF(CURDATE(),dateAchat),0) as SIGNED) as daysin FROM trucks "
 
 
 print_action = "href=""liste.asp"" target=""_blank"""
