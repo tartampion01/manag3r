@@ -47,13 +47,25 @@ Headers(5,3)="status(rs(""intStatus""))"
 Headers(5,4)="Select distinct(intStatus) from trucks;"
 Headers(5,5)="status(rsCombo(""intStatus""))"
 
+Headers(6,0)="daysin"
+Headers(6,1)="# jours"
+Headers(6,2)=false
+Headers(6,3)="ShowDays(rs(""daysin""))"
+
 overdue_condition = "rs(""resUsers_ID"")"
 
-strSQL = "SELECT * FROM trucks "
+'strSQL = "SELECT * FROM trucks "
+strSQL = "SELECT *,cast(ifnull(DATEDIFF(CURDATE(),dateAchat),0) as SIGNED) as daysin from inventory FROM trucks "
 
 
 print_action = "href=""liste.asp"" target=""_blank"""
 
+function ShowDays(d)
+	ShowDays = "N/D"
+	if cint(d)>0 then
+		ShowDays = "<span class='err'>" & d & "</span>"
+	end if
+end function
 
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/backend-truck.dwt.asp" codeOutsideHTMLIsLocked="false" -->
